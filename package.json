@@ -1,0 +1,26 @@
+{
+  "name": "react-material-minimal-electron-starter",
+  "version": "0.1.0",
+  "description": "A minimal React starter for Electron with Material-UI.",
+  "author": "Ryan Bell <ryan@vimlabs.com>",
+  "scripts": {
+    "dev": "electron-webpack dev",
+    "compile": "electron-webpack",
+    "dist": "yarn compile && electron-builder",
+    "dist:unpacked": "yarn dist --dir -c.compression=store -c.mac.identity=null"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "source-map-support": "^0.5.19",
+    "typeface-roboto": "^0.0.75"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.10.4",
+    "electron": "^9.1.1",
+    "electron-builder": "^22.8.0",
+    "electron-webpack": "^2.8.2",
+    "webpack": "^4.44.0"
+  }
+}
