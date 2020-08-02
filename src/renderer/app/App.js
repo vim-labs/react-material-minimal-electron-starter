@@ -4,11 +4,9 @@ import theme from "./theme";
 
 export default function App() {
   return (
-    <>
+    <ThemeProvider theme={theme}>
       <CssBaseline />
-      <ThemeProvider theme={theme}>
-        <div>React App</div>
-      </ThemeProvider>
-    </>
+      <div>React App</div>
+    </ThemeProvider>
   );
 }
