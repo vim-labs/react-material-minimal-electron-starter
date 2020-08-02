@@ -1,6 +1,6 @@
 {
   "name": "react-material-minimal-electron-starter",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "A minimal React starter for Electron with Material-UI.",
   "author": "Ryan Bell <ryan@vimlabs.com>",
   "scripts": {
